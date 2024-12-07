@@ -25,7 +25,7 @@ place_df <- bind_rows(lapply(place_yaml, function(z){
         '</center>'))
 
 base_map <- leaflet(data = place_df) %>%
-    addTiles(urlTemplate = "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png") %>%
+    addTiles() %>%
     addMarkers(~lon, ~lat, popup = ~post_link)
 
 saveWidget(
