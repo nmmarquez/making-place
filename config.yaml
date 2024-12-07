@@ -1,0 +1,16 @@
+baseurl: https://example.com/
+title: making-place
+theme: hugo-theme-console
+languageCode: en-us
+params:
+  animateStyle: animated zoomIn fast
+  navlinks:
+    - name: about/
+      url: about/
+    - name: places/
+      url: places/
+    - name: map/
+      url: map/
+    - name: tags/
+      url: tags/
+  titleCutting: yes
