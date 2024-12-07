@@ -1,4 +1,4 @@
-baseurl: https://example.com/
+baseurl: https://making-place.netlify.app/
 title: making-place
 theme: hugo-theme-console
 languageCode: en-us
